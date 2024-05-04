@@ -270,7 +270,6 @@ def order_crossover(parent1, parent2):
     parent1 = [item for sublist in parent1 for item in sublist[1:]] #convert back to list to apply partial mapped crossover
     parent2 = [item for sublist in parent2 for item in sublist[1:]]
 
-
     size = len(parent1)
     child1, child2 = [-1] * size, [-1] * size
 
